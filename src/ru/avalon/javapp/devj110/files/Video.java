@@ -19,10 +19,10 @@ public class Video extends Multimedia{
         this.resolution = resolution;
     }
     
-            @Override
+    @Override
     public String getDetails() {
               
-        return getInfo() + " " + getTime().getTime() + " " + resolution;
+        return getInfo() + ", " + getTime().getTime() + ", " + resolution;
     }
         
 }

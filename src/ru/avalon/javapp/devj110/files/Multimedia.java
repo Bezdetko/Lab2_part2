@@ -42,7 +42,7 @@ private Time time;
 @Override
     public String getDetails() {
               
-        return info + " " + time.getTime();
+        return info + ", " + time.getTime();
     
 }
 }
