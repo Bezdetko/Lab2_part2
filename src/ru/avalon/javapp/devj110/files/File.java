@@ -45,8 +45,7 @@ public abstract class File {
         this.format = format;
     }
             
-    public void print() {
-//        System.out.println(name + "." + format.getFormat() +" " + size + getDetails());        
+    public void print() {   
         System.out.printf("%-20s | %10s | %-30s", name+"."+format.getFormat(), size, getDetails() );
     }
     

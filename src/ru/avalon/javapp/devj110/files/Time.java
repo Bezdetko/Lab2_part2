@@ -12,24 +12,11 @@ package ru.avalon.javapp.devj110.files;
 public class Time {
     
     private long seconds;
-//    private int minutes;
-//    private int hours;
+
     public Time(long seconds) {
         setSeconds(seconds);
     }
 
-//    public Time(int seconds, int minutes) {
-//        this(seconds);
-//        setMinutes(minutes);
-//    }
-//    
-//    
-//    
-//
-//    public Time(int hours, int minutes, int seconds) {
-//        this(seconds, minutes);
-//        getTime(seconds);
-//    }
 
     public long getSeconds() {
         return seconds;
@@ -41,30 +28,7 @@ public class Time {
         this.seconds = seconds;
     }
 
-//    public int getMinutes() {
-//        return minutes;
-//    }
-//
-//    public void setMinutes(int minutes) {
-//        this.minutes = minutes;
-//    }
-//
-//    public int getHours() {
-//        return hours;
-//    }
-//
-//    public void setHours(int hours) {
-//        this.hours = hours;
-//    }
 
-//@Override
-//    public String toString() {
-//        
-//        return seconds/3600 + ":" + (seconds%3600/60) + ":" + (seconds%60);
-//                            }      
-//       public Duration getDuration() {
-//        return Duration.ofSeconds(seconds);
-//    }
 
     private static String timeToString(long seconds) {
         long hour = seconds / 3600,
@@ -85,22 +49,5 @@ public class Time {
     public String getTime(){
         return timeToString(seconds);
     }
-    
-
-    
-//    @Override    
-//        public String toString() {
-//        if (seconds/3600 == 0 && (seconds%3600/60) == 0){
-//            return "" + seconds%60;
-//        }
-//        
-//        else if (seconds/3600 == 0) {
-//           return "" + (seconds%3600/60) + ":" + (seconds%60);
-//        }
-//        else return seconds/3600 + ":" + (seconds%3600/60) + ":" + (seconds%60); 
-//        }
-//
-//     
 }
-
-
+    
