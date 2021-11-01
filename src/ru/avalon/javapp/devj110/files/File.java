@@ -1,6 +1,4 @@
-
 package ru.avalon.javapp.devj110.files;
-
 
 public abstract class File {
     private String name;
@@ -12,8 +10,7 @@ public abstract class File {
         setSize(size);
         setFormat(format);
     }
-    
-    
+        
 
     public String getName() {
         return name;

@@ -7,8 +7,7 @@ public class Document extends File {
         super(name, size, format);
         setNumberOfPages(numberOfPages);
     }
-    
-    
+        
     public int getNumberOfPages() {
         return numberOfPages;
     }

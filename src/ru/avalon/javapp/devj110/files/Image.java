@@ -21,8 +21,6 @@ private Resolution resolution;
         this.resolution = resolution;
     }
 
-
-
     
         @Override
     public String getDetails() {

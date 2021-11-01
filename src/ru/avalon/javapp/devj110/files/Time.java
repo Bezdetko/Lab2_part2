@@ -1,14 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ru.avalon.javapp.devj110.files;
-//import java.time.Duration;
-//import java.time.format.DateTimeFormatter;
-/**
- *
- * @author bezdetk0@mail.ru
- */
+
 public class Time {
     
     private long seconds;

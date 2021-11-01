@@ -24,5 +24,6 @@ public class Video extends Multimedia{
               
         return getInfo() + ", " + getTime().getTime() + ", " + resolution;
     }
-        
+    
+    
 }
