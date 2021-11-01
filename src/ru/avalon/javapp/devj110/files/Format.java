@@ -16,8 +16,6 @@ public enum Format {
     public String getFormat() {
         return format;
     }
-    
-    
-    
-    
+ 
+       
 }

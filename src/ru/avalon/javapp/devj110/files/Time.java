@@ -29,7 +29,6 @@ public class Time {
     }
 
 
-
     private static String timeToString(long seconds) {
         long hour = seconds / 3600,
                 min = seconds / 60 % 60,

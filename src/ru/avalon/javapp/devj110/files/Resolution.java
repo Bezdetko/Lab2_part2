@@ -16,7 +16,6 @@ public class Resolution {
         return width;
     }
 
-
     public int getHeight() {
         return height;
     }
@@ -30,7 +29,6 @@ public class Resolution {
             throw new IllegalArgumentException("ширина и высота изображения должны быть строго болшьше нуля");
         }
     }
-
 
     
 @Override
